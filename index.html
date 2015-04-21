@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>Page Title</title>
     <meta name="description" content="Webpage">
-    
-    <!-- This is where to hook up a CSS file -->
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
-  
-  <body> 
-
-    <!-- This is where to pull in javascript-->
+    <script src="jquery-1.11.2.js"></script>
     <script src="app.js"></script>
+    <!-- This is where to hook up a CSS file -->
+    <link rel="stylesheet" href="style.css">  
+  </head>
+  <body> 
+    <h1>.css() Method</h1>
+    <div id="content">
+      <div id="btn">Color Palette</div>
+      <form id="colorPicker">
+      <p>Input a Hex Value:</p>
+      <input type="text" id="hexValue" pattern=".{6}"></input>
+      <input type="submit" id="sBtn"></input>
+      <form>
   </body>
 
 
