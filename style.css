@@ -1,11 +1,13 @@
 
 body{
 	font-family: 'Didact Gothic', sans-serif;
+	color: #504554;
+	background-color: #f2f2ed;
 }
 
 #btn {
 	height: 100px;
-	background-color: #bfdedc;
+	background-color: #a9b588;
 	text-align: center;
 }
 #btn p {
