@@ -4,5 +4,6 @@ $(document).ready(function(){
 		var hexVal = "#" + document.getElementById("hexValue").value;
 		event.preventDefault();
 		$("#btn").css("background-color", hexVal);
+		document.getElementById("hexValue").value = null;
 	});
 });
