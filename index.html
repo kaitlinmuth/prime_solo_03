@@ -2,22 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>.css() Function Demo</title>
     <meta name="description" content="Webpage">
+
     <script src="jquery-1.11.2.js"></script>
     <script src="app.js"></script>
-    <!-- This is where to hook up a CSS file -->
+
+
+  <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">  
   </head>
-  <body> 
-    <h1>.css() Method</h1>
-    <div id="content">
-      <div id="btn">Color Palette</div>
-      <form id="colorPicker">
-      <p>Input a Hex Value:</p>
-      <input type="text" id="hexValue" pattern=".{6}"></input>
-      <input type="submit" id="sBtn"></input>
-      <form>
+  <body>
+    <div class="container">
+      <h1>.css() Function</h1>
+      <div id="content">
+        <div id="btn"><p>$("#btn").css("background-color", hexVal);</p></div>
+        <div id="colorPicker">
+        <p>Input a Hex Value:</p>
+        #<input type="text" id="hexValue" pattern=".{6}"></input>
+        <input type="submit" id="sBtn"></input>
+        </div>
+        <p> Need ideas? Try <a href="http://design-seeds.com/search" target="_blank">Design Seeds</a>.
+      </div>
+    </div>
   </body>
 
 
